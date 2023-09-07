@@ -2,7 +2,7 @@
  * Scoreboard block
  * ----------------------------
  * By: Soham Gokhale
- * For: University of Leeds - ELEC5566M-Mini-Project-Group-6
+ * For: University of Leeds - ELEC5566M
  * Date: 04 April 2023
  *
  * Description
@@ -27,12 +27,12 @@
 
 	input 	clock,			// Input Clock Signal
 	input 	reset,			//	Global reset. Resets all scores
-	input		grid_full,		// Input signal. High signifies grid is full
+	input	grid_full,		// Input signal. High signifies grid is full
 
 	//	Status of all game values
 	input [(2*ROWS*COLS)-1:0] 	game_status,
 
-	output reg  [1:0]		winner,		// Round winner
+	output reg  [1:0]	winner,		// Round winner
 	output wire [7:0] 	p1_score,	// Rounds won by Player 1
 	output wire [7:0] 	p2_score,	// Rounds won by Player 2
 	output wire [7:0] 	draw_score	// Rounds ended in a draw

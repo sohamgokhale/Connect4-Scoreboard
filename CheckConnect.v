@@ -2,7 +2,7 @@
  * Check-connect module
  * ----------------------------
  * By: Soham Gokhale
- * For: University of Leeds - ELEC5566M-Mini-Project-Group-6
+ * For: University of Leeds - ELEC5566M
  * Date: 04 April 2023
  *
  * Description

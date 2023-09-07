@@ -2,7 +2,7 @@
  * CheckConnect Test Bench
  * ---------------------------
  *	By: Soham Gokhale
- *	For: University of Leeds - ELEC5566M-Mini-Project-Group-6
+ *	For: University of Leeds - ELEC5566M
  *  Date: 04 Apr 2023
  * 
  *	Description
